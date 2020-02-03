@@ -168,7 +168,7 @@ foreach ($states as $value => $title) {
 
 $label = new Label();
 $label->setFor($select->getId())
-    ->setLabel("Strát:");
+    ->setLabel("Stát:");
 
 $div = new Div();
 $div->setClass("form-group")
@@ -187,7 +187,7 @@ $form->addChildern($submitBtn);
 
 $formDiv = new Div();
 $formDiv->setClass('col-sm-8')
-    ->setInnerHtml("<h2>Testovací formulář</h2>")
+    ->setInnerHtml("<h1>Testovací formulář</h1>")
     ->addChildern($form);
 
 $rowDiv->addChildern($formDiv);
@@ -201,7 +201,7 @@ $links[] = ["href" => "http://www.google.com", "title" => "http://www.google.com
 
 $linksDiv = new Div();
 $linksDiv->setClass("col-sm-4")
-    ->setInnerHtml("<h2>Seznam odkazů</h2>");
+    ->setInnerHtml("<h1>Seznam odkazů</h1>");
 
 foreach ($links as $l) {
     $a = new A();
@@ -265,7 +265,7 @@ foreach ($images as $i) {
 
 $mainDiv = new Div();
 $mainDiv->setClass("col-sm-12")
-    ->setInnerHtml("<h2>Galerie</h2>")
+    ->setInnerHtml("<h1>Galerie</h1>")
     ->addChildern($rowDiv);
 
 $mainRowDiv = new Div();
