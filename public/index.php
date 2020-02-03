@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>OLC</title>
+    <title>OLC Systems - programovací část</title>
 
     <link rel="stylesheet" href="css/bootstrap3.4.min.css">
     <link rel="stylesheet" href="css/main.css">
